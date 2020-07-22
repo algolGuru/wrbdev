@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Workspace</title>
+</head>
+<body>
+    <section id="main_page">
+        <div class="background"></div>
+        <header>
+            <nav>
+                <div class="logo">
+                    <a>WebStudio</a>
+                </div>
+                <div class="nav_menu">
+                    <div class="nav_menu_elem">
+                        <a href="#" class="nav_link">ГЛАВНАЯ</a>
+                        <a href="#services" class="nav_link">УСЛУГИ</a>
+                        <a href="#about_us" class="nav_link">О НАС</a>
+                        <a href="#contacts" class="nav_link">КОНТАКТЫ</a>
+                    </div>
+                </div>
+                <div class="burger">
+                    <a href="#" class="menu_btn">
+                        <span></span>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <div class="inner">
+            <div class="info">
+                <h1 class="title">
+                    Разработаем сайт
+                </div>
+                <h2 class="subtitle">
+                    Повысим ваши продажи<br>И продвинем ваш бизнес
+                </div>
+            </div>
+            <a class="arrow_link" href="#services"><img class="arrow" src="img/down-arrow.svg" alt="down-arrow"></a>
+        </div>
+    </section>
+    <section id="services">
+        <div class="inner">
+            <h2 class="services_title">
+                Наши услуги
+            </h2>
+            <div class="services_container">
+                <div class="services_element" data-aos="fade-right" data-aos-duration="1000">
+                    ПРОДВИЖЕНИЕ<br>
+                    В СОЦСЕТЯХ
+                </div>
+                <div class="services_element" data-aos="fade-right" data-aos-duration="1000">
+                    КРЕАТИВНЫЕ<br>
+                    СТРАТЕГИИ
+                </div>
+                <div class="services_element" data-aos="fade-right" data-aos-duration="1000">
+                    СОЦИАЛЬНАЯ<br>
+                    АНАЛИТИКА
+                </div>
+                <div class="services_element" data-aos="fade-right" data-aos-duration="1000">
+                    КОНТЕНТ-<br>
+                    МАРКЕТИНГ
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="about_bg"></div>
+    <section id="about_us">
+        <div class="inner">
+            <div class="about_title">
+                Кто мы
+            </div>    
+            <div class="about_subtitle">
+                Мы команда разработчиков, которая<br>занимаемся разрбкой сайтов и веб-приложений<br>
+                Оптимизируем и улучшаем уже готовые сайты
+            </div>    
+        </div>
+    </section>
+    <section id="advantages">
+        <div class="inner">
+            <h2 class="advantages_title">Правило трех</h2>
+            <div class="guarantees">
+                <div class="guarantees_element" data-aos="fade-right" data-aos-duration="1000">
+                    <h3>01</h3>
+                    <h4>Быстро</h4>
+                    <p>Разработаем сайт для вашей компании в самые быстрые сроки, без потерь в качестве и в дизайне</p>
+                </div>
+                <div class="guarantees_element" data-aos="fade-right" data-aos-duration="1000">
+                    <h3>02</h3>
+                    <h4>Надежно</h4>
+                    <p>Сайт будет соответсвовать всем новейшим стандартам и тербованиям</p>
+                </div>
+                <div class="guarantees_element" data-aos="fade-right" data-aos-duration="1000">
+                    <h3>03</h3>
+                    <h4>Красиво</h4>
+                    <p>Дизайн вашего сайта будет разработан профессиональнымы дизайнерами</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <div class="inner">
+            <div class="contacts_container">
+                <h2>Связаться с нами</h2>
+            </div>
+            <div class="contacts_info">
+                <div class="contacts_info_element" data-aos="fade-right" data-aos-duration="1000">
+                    <a href="#" class="number">Телефон: +7 (495) 000-00-00</a>
+                    <a href="#" class="email">Почта: gleberoshkin1803@gmail.com</a>
+                </div>
+                <div class="contacts_info_element" data-aos="fade-left" data-aos-duration="1000">
+                    <a href="#" class="number">Linkendin: Armyanskiy4ert</a>
+                    <a href="#" class="email">Telegram: @AlgolGuru</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="inner">
+            <div class="form_info">
+                <h3>Закажите звонок</h3>
+            </div>
+            <div class="form" data-aos="zoom-in" data-aos-duration="2000">
+                <form action="action.php" method="POST">
+                    <div class="first_row">
+                        <input id="name" type="text" name="name" placeholder="Ваше имя" required/>
+                        <input id="phone" type="text" name="phone" placeholder="Ваш телефон" required/>
+                    </div>
+                    <textarea id="comment" type="text" name="comment" placeholder="Комментарий" required></textarea>
+                    <button>Отправить</button>
+                </form>
+            </div>
+        </div>
+        <div class="overlay js-overlay-thank-you">
+            <div class="popup js-thank-you">
+                <h2>Спасибо за заявку<br>С вами скоро свяжутся</h2>
+                <div class="close-popup js-close-thank-you"></div>
+            </div>
+        </div>
+        <div class="footer_inner">
+            <div class="footer_info">
+                <div class="number_info">
+                    <a href="#" class="number">Телефон: +7 (495) 000-00-00</a>
+                    <a href="#" class="email">Почта: gleberoshkin1803@gmail.com</a>
+                </div>
+                <div class="logo">
+                    <a href="#main_page">WebStudio</a>
+                </div>
+                <div class="social_info">
+                    <a href="#" class="number">Linkendin: Armyanskiy4ert</a>
+                    <a href="#" class="email">Telegram: @AlgolGuru</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="jquery.maskedinput.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js" rel="script"></script>
+</body>
+</html>
